@@ -10,14 +10,14 @@ import tempfile
 # -------------------------------------- Firebase Initialization -----------------------------------------------------
 
 firebaseConfig = {
-  "apiKey": "AIzaSyCLU2w5XcrPmMYDCGxlSIZou55tv1nGfHQ",
+  "apiKey": "*********",
   "authDomain": "dispmeddem.firebaseapp.com",
   "databaseURL": "https://dispmeddem-default-rtdb.firebaseio.com",
-  "projectId": "dispmeddem",
+  "projectId": "*******",
   "storageBucket": "dispmeddem.firebasestorage.app",
-  "messagingSenderId": "77501478469",
+  "messagingSenderId": "***********",
   "appId": "1:77501478469:web:50c261c14b7ac27f6f952c",
-  "measurementId": "G-KW3CVHRJ10"
+  "measurementId": "G-***8RJ10"
 }
 firebase = pyrebase.initialize_app(firebaseConfig)
 db = firebase.database()
